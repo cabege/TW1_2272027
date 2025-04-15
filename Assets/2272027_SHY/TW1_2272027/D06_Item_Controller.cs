@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class D06_Item_Controller : MonoBehaviour
 {
-
+    public GameObject PickController;
     private void OnMouseDown()
     {
-        PrintInfo(); 
+        PrintInfo();
+        PickController.GetComponent<D06_Pick_Controller>().Add_Click(gameObject);
     }
 
     void PrintInfo()

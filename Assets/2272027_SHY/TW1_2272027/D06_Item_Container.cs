@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class D06_Instantiate_GameObject : MonoBehaviour
+public class D06_Item_Container : MonoBehaviour
 {
 
     public GameObject Target;       // Step02 (복제할 원본)
